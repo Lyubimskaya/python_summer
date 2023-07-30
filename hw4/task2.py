@@ -4,7 +4,7 @@
 используйте его строковое представление.
 """
 
-def dictionary_key(**kwargs):
+def dict_key(**kwargs):
     res = {}
     for key, value in kwargs.items():
         try:
